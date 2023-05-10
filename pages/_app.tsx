@@ -1,6 +1,22 @@
-import '../styles/globals.css'
-import type { AppProps } from 'next/app'
+// COMPONENTS
+import { Layout } from "../components/Layout.component";
+import { MobileNavigation } from "../components/MobileNavigation.component";
+import { Navigation } from "../components/Navigation.component";
+// TYPES
+import type { AppProps } from "next/app";
 
-export default function App({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />
+import "../styles/globals.scss";
+
+function MyApp({ Component, pageProps }: AppProps) {
+  return (
+    <>
+      <Navigation />
+      <MobileNavigation />
+      <Layout>
+        <Component {...pageProps} />
+      </Layout>
+    </>
+  );
 }
+
+export default MyApp;

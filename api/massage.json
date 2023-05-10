@@ -1,0 +1,47 @@
+{
+  "heroTitle": "Physiotherapie",
+  "heroText": "Physiotherapie ist eine Behandlungsmethode, bei der der Therapeut nicht nur die körperliche Symptomatik, sondern auch die emotionalen und mentalen Aspekte des Patienten berücksichtigt. Dies ermöglicht eine umfassendere Betrachtung des Gesundheitszustands und eine individuellere Behandlungsplanung. Die ganzheitliche Physiotherapie umfasst eine breite Palette von Techniken, darunter Manuelle Therapie, Krankengymnastik, Atemtherapie, Entspannungstechniken,sowie Massagetechniken. Diese Techniken werden in Abstimmung mit dem Patienten ausgewählt und angepasst, um die bestmögliche Behandlungsergebnisse zu erzielen.",
+
+  "symptomTitle": "Die Massagetherapie hat folgende Auswirkungen:",
+  "symptomList": [
+    {
+      "id": 1,
+      "title": "Steigerung der Durchblutung und damit bessere Ernährung des Gewebes"
+    },
+    { "id": 2, "title": "Entstauung im Lymph- und Venenbereich" },
+    { "id": 3, "title": "Pressen, Knirschen" },
+    { "id": 4, "title": "Regulierung des Muskeltonus" },
+    { "id": 5, "title": "Lösung von Narben und Verklebungen im Gewebe" },
+    { "id": 6, "title": "Schmerzlinderung" },
+    { "id": 7, "title": "Wirkung über Reflexbogen auf die inneren Organe" },
+    {
+      "id": 8,
+      "title": "Entspannung und Stabilisierung des vegetativen Nervensystem"
+    },
+    { "id": 9, "title": "Entspannung, Stressreduzierung " }
+  ],
+
+  "headline": "Neben der klassischen Massage haben sich die unterschiedlichsten Massageformen entwickelt.",
+
+  "photoTextList": [
+    {
+      "id": 1,
+      "photoTitle": "Fruchtbarkeitsmassage:",
+      "photoText": "Die Fruchtbarkeitsmassage wurde von der Gynäkologin Dr. Gowri Motha (London) nach Europa gebracht. Sie stellte eine deutliche höhere Schwangerschaft- und Geburtenrate fest und wirkt unterstützend bei unerfüllten Kinderwunsch, Menstruationsbeschwerden und Wechseljahrsbeschwerden.",
+      "img": "fruchtbarkeitsmassage"
+    },
+    {
+      "id": 2,
+      "photoTitle": "Bindegewegsmassage/ Faszientherapie:",
+      "photoText": "Faszien sind das Bindegewebe unseres Körpers und überall vorhanden, sie umschließen Knochen, Muskeln und Organe, Sehnen und Bänder bestehen aus Faszien, folglich geben sie dem Körper Halt und Form. Faszien enthalten viele Nervenfasern. Bei Störungen in den Faszien führt es zum Teil zu sehr starken Schmerzen, bei Fehlbelastungen, zu wenig Bewegung oder Stress können Faszien verkürzen und verkleben- z.B. bei  unspezifischen Rückenschmerzen können verklebte oder verdrehte Faszien auch die Ursache sein. Mittels gezielten Faszienbehandlungen versucht man diese Verklebungen/ Verdrehungen und Verkürzungen zu lösen.",
+      "invert": true,
+      "img": "bindegewebsmassage"
+    },
+    {
+      "id": 3,
+      "photoTitle": "Manuelle Lymphdrainage:",
+      "photoText": "Die Manuelle Lymphdrainage (MLD) zählt, wie die klassische Massage und die Bindegewebsmassage, zu den manuellen Therapieformen. Die Aufgabe des Lymphsystems ist es, das Wasser aus dem Gewebe abzutransportieren und in die Blutgefäße zurückzuführen. Bei einer Störung des Lymphsystems staut sich Körperwasser im Gewebe und es kann zu Schwellungen (Ödemen) kommen. Die Manuelle Lymphdrainage hat positive Auswirkungen auf Ihr Immunsystem.",
+      "img": "lymphdrainage"
+    }
+  ]
+}

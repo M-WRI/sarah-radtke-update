@@ -1,0 +1,69 @@
+.container {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .container {
+    display: block;
+    position: relative;
+    overflow: hidden;
+
+    .logo {
+      top: 1rem;
+      left: 1rem;
+      background: white;
+      border-radius: 50%;
+      border: 1rem solid white;
+      position: fixed;
+      z-index: 10;
+      width: 5rem;
+      height: 5rem;
+    }
+
+    .navContainer {
+      position: fixed;
+      z-index: 9;
+      background: white;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .listContainer {
+        width: 100%;
+        padding: 0 1rem;
+        .listItem {
+          list-style: none;
+          text-align: center;
+          font-size: 2rem;
+          color: var(--primary-color-dark);
+          overflow: hidden;
+
+          .line {
+            width: 100%;
+            height: 0.1rem;
+            background: var(--primary-color-dark);
+
+            &:last-child {
+              display: none;
+            }
+          }
+
+          &:last-child {
+            .line:last-child {
+              display: block;
+            }
+          }
+
+          .textElement {
+            padding: 1rem 0;
+            overflow: hidden;
+          }
+        }
+      }
+    }
+  }
+}

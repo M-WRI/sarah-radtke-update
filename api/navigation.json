@@ -1,0 +1,7 @@
+[
+  { "id": 1, "title": "Start", "slug": "/" },
+  { "id": 2, "title": "Physiotherapie", "slug": "physiotherapie" },
+  { "id": 3, "title": "Manuelle Therapie", "slug": "manuelle-therapie" },
+  { "id": 4, "title": "Akupunktur", "slug": "akupunktur" },
+  { "id": 5, "title": "Über Mich", "slug": "ueber-mich" }
+]

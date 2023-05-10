@@ -1,0 +1,239 @@
+@font-face {
+  font-family: "Adobe Garamond Pro";
+  src: url("/fonts/AGaramondPro/AGaramondPro-BoldItalic.eot");
+  src: url("/fonts/AGaramondPro/AGaramondPro-BoldItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("/fonts/AGaramondPro/AGaramondPro-BoldItalic.woff2") format("woff2"),
+    url("/fonts/AGaramondPro/AGaramondPro-BoldItalic.woff") format("woff"),
+    url("/fonts/AGaramondPro/AGaramondPro-BoldItalic.ttf") format("truetype");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Adobe Garamond Pro";
+  src: url("/fonts/AGaramondPro/AGaramondPro-Bold.eot");
+  src: url("/fonts/AGaramondPro/AGaramondPro-Bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("/fonts/AGaramondPro/AGaramondPro-Bold.woff2") format("woff2"),
+    url("/fonts/AGaramondPro/AGaramondPro-Bold.woff") format("woff"),
+    url("/fonts/AGaramondPro/AGaramondPro-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Adobe Garamond Pro";
+  src: url("/fonts/AGaramondPro/AGaramondPro-SemiboldItalic.eot");
+  src: url("/fonts/AGaramondPro/AGaramondPro-SemiboldItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("/fonts/AGaramondPro/AGaramondPro-SemiboldItalic.woff2") format("woff2"),
+    url("/fonts/AGaramondPro/AGaramondPro-SemiboldItalic.woff") format("woff"),
+    url("/fonts/AGaramondPro/AGaramondPro-SemiboldItalic.ttf")
+      format("truetype");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Adobe Garamond Pro";
+  src: url("/fonts/AGaramondPro/AGaramondPro-Semibold.eot");
+  src: url("/fonts/AGaramondPro/AGaramondPro-Semibold.eot?#iefix")
+      format("embedded-opentype"),
+    url("/fonts/AGaramondPro/AGaramondPro-Semibold.woff2") format("woff2"),
+    url("/fonts/AGaramondPro/AGaramondPro-Semibold.woff") format("woff"),
+    url("/fonts/AGaramondPro/AGaramondPro-Semibold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Adobe Garamond Pro";
+  src: url("/fonts/AGaramondPro/AGaramondPro-Regular.eot");
+  src: url("/fonts/AGaramondPro/AGaramondPro-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("/fonts/AGaramondPro/AGaramondPro-Regular.woff2") format("woff2"),
+    url("/fonts/AGaramondPro/AGaramondPro-Regular.woff") format("woff"),
+    url("/fonts/AGaramondPro/AGaramondPro-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Adobe Garamond Pro";
+  src: url("/fonts/AGaramondPro/AGaramondPro-Italic.eot");
+  src: url("/fonts/AGaramondPro/AGaramondPro-Italic.eot?#iefix")
+      format("embedded-opentype"),
+    url("/fonts/AGaramondPro/AGaramondPro-Italic.woff2") format("woff2"),
+    url("/fonts/AGaramondPro/AGaramondPro-Italic.woff") format("woff"),
+    url("/fonts/AGaramondPro/AGaramondPro-Italic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Quicksand";
+  src: url("/fonts/Quicksand/Quicksand-Light.eot");
+  src: url("/fonts/Quicksand/Quicksand-Light.eot?#iefix")
+      format("embedded-opentype"),
+    url("/fonts/Quicksand/Quicksand-Light.woff2") format("woff2"),
+    url("/fonts/Quicksand/Quicksand-Light.woff") format("woff"),
+    url("/fonts/Quicksand/Quicksand-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Quicksand";
+  src: url("/fonts/Quicksand/Quicksand-Medium.eot");
+  src: url("/fonts/Quicksand/Quicksand-Medium.eot?#iefix")
+      format("embedded-opentype"),
+    url("/fonts/Quicksand/Quicksand-Medium.woff2") format("woff2"),
+    url("/fonts/Quicksand/Quicksand-Medium.woff") format("woff"),
+    url("/fonts/Quicksand/Quicksand-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Quicksand";
+  src: url("/fonts/Quicksand/Quicksand-Bold.eot");
+  src: url("/fonts/Quicksand/Quicksand-Bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("/fonts/Quicksand/Quicksand-Bold.woff2") format("woff2"),
+    url("/fonts/Quicksand/Quicksand-Bold.woff") format("woff"),
+    url("/fonts/Quicksand/Quicksand-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Quicksand";
+  src: url("/fonts/Quicksand/Quicksand-Regular.eot");
+  src: url("/fonts/Quicksand/Quicksand-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("/fonts/Quicksand/Quicksand-Regular.woff2") format("woff2"),
+    url("/fonts/Quicksand/Quicksand-Regular.woff") format("woff"),
+    url("/fonts/Quicksand/Quicksand-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Quicksand";
+  src: url("/fonts/Quicksand/Quicksand-SemiBold.eot");
+  src: url("/fonts/Quicksand/Quicksand-SemiBold.eot?#iefix")
+      format("embedded-opentype"),
+    url("/fonts/Quicksand/Quicksand-SemiBold.woff2") format("woff2"),
+    url("/fonts/Quicksand/Quicksand-SemiBold.woff") format("woff"),
+    url("/fonts/Quicksand/Quicksand-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  //COLORS
+  --primary-color-dark: #cbbb9f;
+  --primary-color-light: #dfd6c5;
+  --secondary-color-dark: #84c6ec;
+  --secondary-color-light: #b4dcf3;
+  --black: #3d3d3d;
+  --white: #fff;
+  --demo-image-color: #efefef;
+  --image-bg-color: #dfd6c5;
+  // FONTS
+  --headline-font: "Adobe Garamond Pro", sans-serif;
+  --sanserif-head-font: "Quicksand", sans-serif;
+  --text-font: "Quicksand", sans-serif;
+  // SIZES
+  --main-head-size: 3rem;
+  --secondary-head-size: 2rem;
+  --text-size: 1rem;
+  // SHADOW
+  --box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.05);
+
+  /* The intrinsic width of the underline stroke (in pixels). This is
+   * the same as the height of the cap images. Don't specify the
+   * units! This is because of some of the calculations we do later on. */
+  --underline-intrinsic-width: 10;
+
+  /* The actual width of the underline stroke we want to render (in pixels).
+  * You can modify this, and the sizing and positioning should be calculated
+  * accordingly. Again, Don't specify the units! */
+  --underline-width: 12;
+
+  /* The colour used to draw the underline. It should match the colour
+  * used in the cap images... unfortunately we can't modify the SVG
+  * fill via CSS because it's a background image. */
+  --underline-color: var(--secondary-color-light);
+
+  /* We need to know the width of the cap images so that we
+  * can position everything on the x axis accordingly. */
+  --underline-cap-width: 5px;
+
+  /* The border is positioned relative to the bottom of the line.
+  * We can move it upwards a little to create an overlap effect. */
+  --underline-offset-y: -2px;
+
+  /* The padding to add to the x axis. By default, the caps would be
+  * aligned with the beginning and end of the line. */
+  --underline-padding-x: 0.12em;
+
+  /* The cap images to use that form the left and right rounded
+  * shape. I guess these could be any shape, they don't
+  * necessarily have to be round 🙂.
+  */
+  --cap-image-left: url(https://files-d4s40otz1.now.sh/left.svg);
+  --cap-image-right: url(https://files-4vvqilj8v.now.sh/right.svg);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  font-family: var(--text-font), Helvetica;
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    font-family: var(--headline-font);
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+@media (max-width: 970px) {
+  :root {
+    // SIZES
+    --main-head-size: 2.5rem;
+  }
+}
+
+@media (max-width: 900px) {
+  :root {
+    // SIZES
+    --main-head-size: 2rem;
+  }
+}
+
+.more-spacing {
+  margin-top: 6rem;
+}

@@ -1,0 +1,26 @@
+{
+  "heroTitle": "Akupunktur",
+  "heroText": "Akupunktur ist eine jahrtausendealte Behandlungsmethode aus China, entstammt der traditionellen chinesischen Medizin (TCM), bei der eine therapeutische Wirkung durch Nadelstiche an bestimmten Punkten des Körpers erzielt wird.",
+
+  "photoTitle": "Individuell für Sie angepasst",
+  "photoText": "Das Qi ist „die Lebensenergie des Körpers“ und zirkuliert auf den Meridianen (Leitbahnen) und hat einen Einfluss auf alle Körperfunktionen, es gibt 14 Meridiane und 720 Akupunkturpunkte. Ein gestörter Energiefluss kann zu Erkrankungen führen, durch die Akupunktur kann die Störung im Fluss des Qi wieder behoben werden. Vor jeder Akupunkturbehandlung wird eine ausführliche TCM-Anamnese erhoben, um der Ursache mehr auf den Grund zu kommen.",
+
+  "symptomData": {
+    "headline": "Akupunktur kann in vielen verschiedenen Bereichen eingesetzt werden"
+  },
+
+  "info": {
+    "headline": "Vor allem bei unerfüllten Kinderwunsch hat es schon große Ziele erreicht",
+    "text": "Kinderwunsch Akupunktur ist eine wirksame Behandlungsmethode, die Paaren helfen kann, ihren Kinderwunsch zu erfüllen. Bei dieser Behandlungsmethode wird der Körper gezielt dabei unterstützt, seine Fruchtbarkeit zu verbessern und die Chancen auf eine erfolgreiche Schwangerschaft zu erhöhen. Es ist eine natürliche und wirksame Behandlungsmethode, die bei vielen Paaren zu einer erfolgreichen Schwangerschaft geführt hat. Wenn Sie Interesse an der Behandlung haben, können Sie sich gerne in meiner Praxis melden, um mehr über die möglichen Vorteile zu erfahren und eine Behandlung zu erhalten."
+  },
+
+  "list": [
+    { "id": 1, "title": "Wechseljahrsbeschwerden" },
+    { "id": 2, "title": "Menstruationsbeschwerden, unregelmäßiger Zyklus" },
+    { "id": 3, "title": "Alle orthopädischen Erkrankungen/Beschwerden" },
+    { "id": 4, "title": "Kopfschmerzen" },
+    { "id": 5, "title": "Tinnitus, Ohrgeräuschen" },
+    { "id": 6, "title": "Schwindel" },
+    { "id": 7, "title": "Kiefergelenkbeschwerden" }
+  ]
+}

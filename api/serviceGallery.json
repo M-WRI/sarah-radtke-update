@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Physiotherapie",
+    "text": "Physiotherapie ist eine Behandlungsmethode, bei der der Therapeut nicht nur die körperliche Symptomatik, sondern auch die emotionalen und mentalen Aspekte des Patienten berücksichtigt. Dies ermöglicht eine umfassendere Betrachtung des Gesundheitszustands und eine individuellere Behandlungsplanung.",
+    "img": "massage",
+    "alt": "Physiotherapie Sarah Radtke",
+    "link": "massage"
+  },
+  {
+    "id": 2,
+    "title": "Manuelle Therapie",
+    "text": "Das Maitland-Konzept beschäftigt sich mit der Befunderhebung und Behandlung von Funktionsstörungen im Gelenk-, Muskel- und Nervensystem mit speziellen Manual- und Mobilisationstechniken, neurodynamische Techniken, Muskeldehnungen, stabilisierende Übungen und Heimprogramme. Durch diese Techniken können Schmerzen gelindert und Bewegungseinschränkungen behoben werden.",
+    "img": "manual",
+    "alt": "Manuelle Therapie Sarah Radtke",
+    "link": "manuelle-therapie"
+  },
+  {
+    "id": 4,
+    "title": "Akupunktur",
+    "text": "Akupunktur ist eine jahrtausendealte Behandlungsmethode aus China, entstammt der traditionellen chinesischen Medizin (TCM), bei der eine therapeutische Wirkung durch Nadelstiche an bestimmten Punkten des Körpers erzielt wird.",
+    "img": "acupuncture",
+    "alt": "Akupunktur Sarah Radtke",
+    "link": "akupunktur2"
+  }
+]

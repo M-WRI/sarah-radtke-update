@@ -1,0 +1,139 @@
+.container {
+  padding: 0 1rem;
+  margin: 9rem auto;
+  max-width: 1280px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+
+  .galleryNavContainer {
+    list-style: none;
+    min-width: 20rem;
+
+    .galleryNavItem {
+      cursor: pointer;
+      white-space: nowrap;
+      display: flex;
+      align-items: center;
+      font-family: var(--text-font);
+      font-size: var(--secondary-head-size);
+      color: var(--primary-color-light);
+      margin-bottom: 1rem;
+
+      .line {
+        margin-right: 1rem;
+        height: 4px;
+        width: 0px;
+        background: var(--primary-color-light);
+        transition: all 0.2s;
+      }
+
+      &:hover .line {
+        width: 2rem;
+        transition: all 0.2s;
+      }
+
+      &.active {
+        color: var(--primary-color-dark);
+        transition: all 0.2s;
+        .line {
+          width: 2rem;
+          background: var(--primary-color-dark);
+          transition: all 0.2s;
+        }
+      }
+    }
+  }
+
+  .contentContainer {
+    width: 100%;
+    .articleContainer {
+      display: flex;
+      align-items: center;
+      .imageContainer {
+        right: -4rem;
+        width: 500px;
+        height: 500px;
+        overflow: hidden;
+
+        .image {
+          position: relative;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 100%;
+          height: 100%;
+          background: var(--demo-image-color);
+        }
+      }
+
+      .article {
+        flex: none;
+        position: relative;
+        right: 1rem;
+        max-width: 500px;
+        width: 50%;
+        padding: 1rem;
+        background: var(--white);
+        box-shadow: var(--box-shadow);
+        overflow: hidden;
+      }
+    }
+  }
+}
+
+@media (max-width: 1030px) {
+  .container {
+    flex-direction: column;
+
+    .galleryNavContainer {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      min-width: unset;
+      width: 100%;
+      margin-bottom: 2rem;
+
+      .galleryNavItem {
+        margin-right: 1rem;
+      }
+    }
+
+    .contentContainer {
+      .articleContainer {
+        .imageContainer {
+          right: unset;
+        }
+
+        .article {
+          right: 1rem;
+          position: absolute;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 730px) {
+  .container {
+    .contentContainer {
+      overflow: hidden;
+      .articleContainer {
+        flex-direction: column;
+        .imageContainer {
+          right: unset;
+        }
+
+        .article {
+          bottom: 1rem;
+          right: unset;
+          position: relative;
+          width: 100%;
+          max-width: 100%;
+        }
+      }
+    }
+  }
+}

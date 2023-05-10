@@ -1,0 +1,103 @@
+.container {
+  margin: 150px auto;
+  position: relative;
+  max-width: 1280px;
+  padding: 0 1rem;
+
+  .progressBar {
+    position: absolute;
+    z-index: 0;
+    transform-origin: top;
+    top: 0;
+    bottom: 0;
+    left: calc(50% + 0.3rem);
+    width: 0.5rem;
+    background: var(--secondary-color-dark);
+    border-radius: 10px;
+  }
+
+  .cardContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .circle {
+      position: absolute;
+      width: 3rem;
+      height: 3rem;
+      border-radius: 50%;
+      background: var(--secondary-color-dark);
+      left: calc(50% - 1rem);
+    }
+
+    .animationContainer {
+      width: 100%;
+
+      .contentContainerLeft {
+        max-width: 350px;
+        margin: 50px 0;
+        padding: 2rem;
+        box-shadow: var(--box-shadow);
+        transform-origin: right;
+        position: relative;
+        z-index: 1;
+        background: var(--white);
+        left: 50%;
+        transform: translateX(calc(-100% + -2rem));
+        right: 0;
+        line-height: 1.5;
+      }
+
+      .contentContainerRight {
+        max-width: 350px;
+        margin: 50px 0;
+        padding: 2rem;
+        box-shadow: var(--box-shadow);
+        transform-origin: right;
+        position: relative;
+        z-index: 1;
+        background: var(--white);
+        left: 50%;
+        transform: translateX(calc(0% + 3rem));
+        right: 0;
+        line-height: 1.5;
+      }
+
+      .content {
+        text-align: center;
+        font-size: 1rem;
+        color: var(--black);
+        font-family: var(--text-font);
+        font-weight: 400;
+      }
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .container {
+    .cardContainer {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .circle {
+        visibility: hidden;
+      }
+
+      .animationContainer {
+        .contentContainerLeft {
+          left: 50%;
+          transform: translateX(-50%);
+          z-index: 1;
+        }
+
+        .contentContainerRight {
+          left: 50%;
+          transform: translateX(-50%);
+          z-index: 1;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "head": "Das Angebot im Überblick",
+  "list": [
+    { "id": 1, "title": "CMD", "img": "1", "link": "#" },
+    { "id": 2, "title": "Manuelle Therapie", "img": "2", "link": "#" },
+    { "id": 3, "title": "Massage", "img": "3", "link": "#" },
+    { "id": 4, "title": "Akupunktur", "img": "4", "link": "#" }
+  ]
+}

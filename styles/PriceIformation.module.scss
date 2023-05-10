@@ -1,0 +1,29 @@
+.container {
+  padding: 0 1rem;
+  margin: 9rem auto;
+  max-width: 1280px;
+
+  .wrapper {
+    max-width: 780px;
+    align-items: center;
+    grid-gap: 2rem;
+    margin: 0 auto;
+
+    .generalInfo {
+      padding: 3rem;
+      background: var(--primary-color-light);
+
+      & > div {
+        margin: auto;
+      }
+    }
+  }
+}
+
+@media (max-width: 635px) {
+  .container {
+    .wrapper {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+}

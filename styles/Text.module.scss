@@ -1,0 +1,14 @@
+.textContainer {
+  font-family: var(--text-font);
+  font-size: var(--text-size);
+  color: var(--black);
+  line-height: 1.5;
+
+  &.margin {
+    margin-bottom: 2rem;
+  }
+
+  &.center {
+    text-align: center;
+  }
+}
