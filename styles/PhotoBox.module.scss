@@ -17,6 +17,11 @@
       background: var(--demo-image-color);
       box-shadow: var(--box-shadow);
       z-index: 1;
+
+      &.imageWrapperHight {
+        width: 450px;
+        height: 550px;
+      }
     }
 
     .bgImageElement {
@@ -26,6 +31,11 @@
       position: absolute;
       z-index: 0;
       transform: translate(2rem, 2rem);
+
+      &.bgImageElementHeight {
+        width: 450px;
+        height: 550px;
+      }
     }
   }
 
@@ -92,11 +102,21 @@
         position: relative;
         width: 80vw;
         height: 80vw;
+
+        &.imageWrapperHight {
+          width: 80vw;
+          height: 90vw;
+        }
       }
 
       .bgImageElement {
         width: 80vw;
         height: 80vw;
+
+        &.bgImageElementHeight {
+          width: 80vw;
+          height: 90vw;
+        }
       }
     }
   }

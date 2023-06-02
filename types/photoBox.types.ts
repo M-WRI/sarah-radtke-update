@@ -5,4 +5,5 @@ export interface IPhotoBoxProps {
   link?: string;
   invert?: boolean;
   underline?: boolean;
+  height?: boolean;
 }

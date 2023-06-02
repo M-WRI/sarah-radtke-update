@@ -38,9 +38,10 @@ const Massage: NextPage = () => {
           text={item.photoText}
           invert={i % 2 === 1 && true}
           underline
+          height
         />
       ))}
-      <PreFooter site="Massage" />
+      <PreFooter site="Physiotherapie" />
       <Footer />
     </div>
   );

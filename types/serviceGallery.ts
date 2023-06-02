@@ -6,7 +6,7 @@ export interface IArticleData {
   title: string;
   text: string;
   alt: string;
-  // link: string;
+  link: string;
   img: TImageType;
 }
 

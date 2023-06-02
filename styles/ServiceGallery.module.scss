@@ -8,6 +8,12 @@
   justify-content: center;
   overflow: hidden;
 
+  .link {
+    font-family: var(--text-font);
+    color: var(--black);
+    font-size: 14px;
+  }
+
   .galleryNavContainer {
     list-style: none;
     min-width: 20rem;

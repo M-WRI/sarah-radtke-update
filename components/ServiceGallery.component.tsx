@@ -12,6 +12,7 @@ import { animation } from "../animation/serviceGallery";
 import { IArticleData, IItemData } from "../types/serviceGallery";
 // STYLES
 import styles from "../styles/ServiceGallery.module.scss";
+import Link from "next/link";
 
 export const ServiceGallery = (): JSX.Element => {
   const [index, setIndex] = useState<number | string>(1);
@@ -84,6 +85,9 @@ export const ServiceGallery = (): JSX.Element => {
                       {article.title}
                     </Headline>
                     <Text center={center()}>{article.text}</Text>
+                    <Link className={styles.link} href={article.link}>
+                      weiter
+                    </Link>
                   </motion.div>
                 </div>
               )}

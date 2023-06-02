@@ -20,7 +20,7 @@ export const PreFooter = ({ site }: IPreFooterProps): JSX.Element => {
       </Headline>
       <div
         className={
-          filteredList.length < 4
+          filteredList.length < 3
             ? styles.listContaienerSm
             : styles.listContainer
         }

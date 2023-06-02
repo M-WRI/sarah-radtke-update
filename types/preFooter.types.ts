@@ -1,4 +1,4 @@
-type TSites = "CMD" | "Manuelle Therapie" | "Massage" | "Akupunktur";
+type TSites = "CMD" | "Physiotherapie" | "Manuelle Therapie" | "Akupunktur";
 
 export interface IPreFooterProps {
   site?: TSites;

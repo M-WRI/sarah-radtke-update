@@ -42,6 +42,18 @@
       "photoTitle": "Manuelle Lymphdrainage:",
       "photoText": "Die Manuelle Lymphdrainage (MLD) zählt, wie die klassische Massage und die Bindegewebsmassage, zu den manuellen Therapieformen. Die Aufgabe des Lymphsystems ist es, das Wasser aus dem Gewebe abzutransportieren und in die Blutgefäße zurückzuführen. Bei einer Störung des Lymphsystems staut sich Körperwasser im Gewebe und es kann zu Schwellungen (Ödemen) kommen. Die Manuelle Lymphdrainage hat positive Auswirkungen auf Ihr Immunsystem.",
       "img": "lymphdrainage"
+    },
+    {
+      "id": 4,
+      "photoTitle": "Kinesio-Taping:",
+      "photoText": "Kinesiotaping ist eine therapeutische Methode, bei der elastische Pflaster auf die Haut aufgebracht werden, um Schmerzen zu lindern, die Beweglichkeit zu verbessern und die Heilung von Verletzungen zu unterstützen. Es eignet sich für eine Vielzahl von Beschwerden und Verletzungen, einschließlich Rückenschmerzen, Schulterprobleme, Verstauchungen, Verletzungen des Bewegungsapparates und Sportverletzungen.",
+      "img": "kinesiotaping"
+    },
+    {
+      "id": 5,
+      "photoTitle": "Schröpfbehandlung:",
+      "photoText": "Die Schröpfmassage ist eine Form der manuellen Therapie, die sich mit dem Unterdruck von Gläsern oder Schröpfköpfen auf bestimmte Bereiche des Körpers befasst. Diese Methode wird schon seit Jahrhunderten in verschiedenen Kulturen angewendet und hat ihren Ursprung in der Traditionellen Chinesischen Medizin (TCM). Sie ist eine Form der manuellen Therapie und wird oft bei Schmerzen, Verletzungen, Verspannungen und anderen Beschwerden angewendet und soll dabei helfen, die Durchblutung zu verbessern, die Entgiftung des Körpers zu fördern und die Selbstheilungskräfte des Körpers anzuregen.",
+      "img": "schroepfbehandlung"
     }
   ]
 }
