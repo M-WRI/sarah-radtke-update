@@ -14,6 +14,7 @@ import type { NextPage } from "next";
 import { Text } from "../components/Text.component";
 
 const Home: NextPage = () => {
+  // done
   return (
     <div>
       <Head>
