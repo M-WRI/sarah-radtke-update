@@ -39,8 +39,11 @@
           list-style: none;
           text-align: center;
           font-size: 2rem;
-          color: var(--primary-color-dark);
           overflow: hidden;
+
+          div {
+            color: var(--primary-color-dark);
+          }
 
           .line {
             width: 100%;

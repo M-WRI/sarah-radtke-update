@@ -6,7 +6,7 @@
 
   .listContaienerSm {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-gap: 1rem;
 
     .imageContainer {
@@ -37,7 +37,7 @@
 
   .listContainer {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-gap: 1rem;
 
     .imageContainer {
@@ -69,7 +69,7 @@
 
 @media (max-width: 768px) {
   .container {
-    .listContaienerSm {
+    .listContainer {
       grid-template-columns: repeat(2, 1fr);
 
       a {
@@ -78,8 +78,15 @@
         }
       }
     }
-    .listContainer {
+
+    .listContaienerSm {
       grid-template-columns: repeat(2, 1fr);
+
+      a {
+        &:last-child {
+          grid-column: span 2;
+        }
+      }
     }
   }
 }
@@ -97,6 +104,12 @@
     }
     .listContainer {
       grid-template-columns: repeat(1, 1fr);
+
+      a {
+        &:last-child {
+          grid-column: unset;
+        }
+      }
     }
   }
 }

@@ -19,7 +19,6 @@ export const MobileNavigation = () => {
         ease: [0.7, 0.135, 0.235, 0.99],
         duration: 0.2,
       },
-      skewY: [5, 0],
     },
     close: {
       y: "-100%",
@@ -28,7 +27,6 @@ export const MobileNavigation = () => {
         ease: [0.7, 0.135, 0.235, 0.99],
         duration: 0.3,
       },
-      skewY: [5, 0],
     },
     lineTop: (i: number) => ({
       x: 0,

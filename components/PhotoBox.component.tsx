@@ -19,6 +19,7 @@ export const PhotoBox = ({
   link,
   invert = false,
   underline = false,
+  height = false,
 }: IPhotoBoxProps) => {
   const [innerHeight, setInnerHeight] = useState<number>();
   const [innerWidth, setInnerWidth] = useState<number>();
@@ -81,11 +82,17 @@ export const PhotoBox = ({
       className={`${styles.container} ${invert && styles.invert}`}
     >
       <div className={styles.imageContainer}>
-        <div className={styles.bgImageElement}></div>
+        <div
+          className={`${styles.bgImageElement} ${
+            height ? styles.bgImageElementHeight : ""
+          }`}
+        ></div>
         <div>
           {scroll && offsetY && (
             <div
-              className={styles.imageWrapper}
+              className={`${styles.imageWrapper} ${
+                height ? styles.imageWrapperHight : ""
+              }`}
               style={{
                 transform: `translateY(${scroll < 1 && offsetY * 0.2}px)`,
               }}

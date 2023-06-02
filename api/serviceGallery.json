@@ -5,7 +5,7 @@
     "text": "Physiotherapie ist eine Behandlungsmethode, bei der der Therapeut nicht nur die körperliche Symptomatik, sondern auch die emotionalen und mentalen Aspekte des Patienten berücksichtigt. Dies ermöglicht eine umfassendere Betrachtung des Gesundheitszustands und eine individuellere Behandlungsplanung.",
     "img": "massage",
     "alt": "Physiotherapie Sarah Radtke",
-    "link": "massage"
+    "link": "physiotherapie"
   },
   {
     "id": 2,
@@ -21,6 +21,6 @@
     "text": "Akupunktur ist eine jahrtausendealte Behandlungsmethode aus China, entstammt der traditionellen chinesischen Medizin (TCM), bei der eine therapeutische Wirkung durch Nadelstiche an bestimmten Punkten des Körpers erzielt wird.",
     "img": "acupuncture",
     "alt": "Akupunktur Sarah Radtke",
-    "link": "akupunktur2"
+    "link": "akupunktur"
   }
 ]
