@@ -14,7 +14,6 @@ import { Text } from "../components/Text.component";
 import { MetaData } from "../components/MetaData.component";
 
 const Home: NextPage = () => {
-  // test
   return (
     <div>
       <MetaData
