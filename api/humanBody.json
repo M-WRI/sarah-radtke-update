@@ -15,7 +15,8 @@
     { "id": 14, "title": "Rückenschmerzen", "top": 360, "left": -120 },
     { "id": 15, "title": "ISG Schmerzen/Blockade", "top": 450, "left": -160 },
     { "id": 16, "title": "Beckenschiefstand", "top": 450, "left": 170 },
-    { "id": 17, "title": "Knieschmerzen", "top": 650, "left": 170 }
+    { "id": 17, "title": "Knieschmerzen", "top": 650, "left": 170 },
+    { "id": 18, "title": "Fußschmerzen", "top": 860, "left": 170 }
   ],
 
   "humanList2": [
@@ -34,7 +35,8 @@
     { "id": 14, "title": "Rückenschmerzen", "top": 360, "left": -40 },
     { "id": 15, "title": "ISG Schmerzen/Blockade", "top": 450, "left": -30 },
     { "id": 16, "title": "Beckenschiefstand", "top": 500, "left": 100 },
-    { "id": 17, "title": "Knieschmerzen", "top": 650, "left": 130 }
+    { "id": 17, "title": "Knieschmerzen", "top": 650, "left": 130 },
+    { "id": 18, "title": "Fußschmerzen", "top": 860, "left": 170 }
   ],
 
   "info": {

@@ -1,6 +1,10 @@
 {
+  "meta": {
+    "title": "Sarah Radtke | Über Michs",
+    "description": "Nach Jahren meines Studiums der Zahnmedizin an der Uniklinik Eppendorf folgten eine Physiotherapieausbildung und weitere Qualifikationen und Fortbildungen in den Bereichen Lymphdrainage, Rückentraining, Kiefergelenkbehandlungen (CMD) und Manuelle Therapie, zudem eine Heilpraktiker- und Akupunkturausbildung (spezialisiert auf Kinderwunsch)."
+  },
   "heroTitle": "Sarah Radtke",
-  "heroText": "Mein Name ist Sarah Radtke. Ich wurde 1983 in Köln geboren, bin verheiratet und lebe mit meinen 2 Kindern und meinem Mann seit 2004 in Hamburg.Nach Jahren meines Studiums der Zahnmedizin an der Uniklinik Eppendorf folgten eine Physiotherapieausbildung und weitere Qualifikationen und Fortbildungen in den Bereichen Lymphdrainage, Rückentraining, Kiefergelenkbehandlungen (CMD) und Manuelle Therapie, zudem eine Heilpraktiker- und Akupunkturausbildung (spezialisiert auf Kinderwunsch).",
+  "heroText": "Mein Name ist Sarah Radtke. Ich wurde 1983 in Köln geboren, bin verheiratet und lebe mit meinen 2 Kindern und meinem Mann seit 2004 in Hamburg. Nach Jahren meines Studiums der Zahnmedizin an der Uniklinik Eppendorf folgten eine Physiotherapieausbildung und weitere Qualifikationen und Fortbildungen in den Bereichen Lymphdrainage, Rückentraining, Kiefergelenkbehandlungen (CMD) und Manuelle Therapie, zudem eine Heilpraktiker- und Akupunkturausbildung (spezialisiert auf Kinderwunsch).",
 
   "photoTitle": "Sie stehen im Mittelpunkt",
   "photoText": "Seit über zehn Jahren beschäftige ich mich mit unterschiedlichen Therapieansätzen und Behandlungsmöglichkeiten aus den breitgefächerten Bereichen der Physiotherapie, u.a. klassische Krankengymnastik, Massagetechniken, Lymphdrainage, Rückentraining, Kiefergelenkbehandlungen (CMD) und der Manuellen Therapie. Ich kam irgendwann an einen Punkt, an dem ich mit meinen Behandlungsmöglichkeiten auf der Stelle stand und absolvierte 2015 die staatlich anerkannte Heilpraktikerprüfung. Anschließend folgte die Akupunkturausbildung, um noch mehr über den Tellerrand hinausschauen und weitere Therapiemöglichkeiten abrufen zu können.",
@@ -20,7 +24,7 @@
     { "id": "4", "text": "Akupunkturausbildung" },
     { "id": "5", "text": "Staatl. anerkannte Heilpraktikerin" },
     { "id": "6", "text": "Lymphdrainageausbildung" },
-    { "id": "7", "text": "Staatl. Geprüfte Physiotherapeutin" },
+    { "id": "7", "text": "Anerkannte Physiotherapeutin" },
     { "id": "8", "text": "7 Semester Zahnmedizin am UKE, Hamburg" }
   ]
 }

@@ -1,4 +1,8 @@
 {
+  "meta": {
+    "title": "Sarah Radtke | Physiotherapie",
+    "description": "Physiotherapie ist eine Behandlungsmethode, bei der der Therapeut nicht nur die körperliche Symptomatik, sondern auch die emotionalen und mentalen Aspekte des Patienten berücksichtigt."
+  },
   "heroTitle": "Physiotherapie",
   "heroText": "Physiotherapie ist eine Behandlungsmethode, bei der der Therapeut nicht nur die körperliche Symptomatik, sondern auch die emotionalen und mentalen Aspekte des Patienten berücksichtigt. Dies ermöglicht eine umfassendere Betrachtung des Gesundheitszustands und eine individuellere Behandlungsplanung. Die ganzheitliche Physiotherapie umfasst eine breite Palette von Techniken, darunter Manuelle Therapie, Krankengymnastik, Atemtherapie, Entspannungstechniken,sowie Massagetechniken. Diese Techniken werden in Abstimmung mit dem Patienten ausgewählt und angepasst, um die bestmögliche Behandlungsergebnisse zu erzielen.",
 
@@ -9,7 +13,6 @@
       "title": "Steigerung der Durchblutung und damit bessere Ernährung des Gewebes"
     },
     { "id": 2, "title": "Entstauung im Lymph- und Venenbereich" },
-    { "id": 3, "title": "Pressen, Knirschen" },
     { "id": 4, "title": "Regulierung des Muskeltonus" },
     { "id": 5, "title": "Lösung von Narben und Verklebungen im Gewebe" },
     { "id": 6, "title": "Schmerzlinderung" },

@@ -17,9 +17,8 @@ const Home: NextPage = () => {
   return (
     <div>
       <MetaData
-        title="Sarah Radtke | Start"
-        description={data.heroData.text}
-        img="/img/about_img_sarah_radkte.jpeg"
+        title={data.meta.title}
+        description={data.meta.description}
         url="www.sarah-radtke.de"
       />
       <Hero
