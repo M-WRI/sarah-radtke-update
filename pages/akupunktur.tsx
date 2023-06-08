@@ -20,7 +20,7 @@ const Akupunktur: NextPage = () => {
         title={data.meta.title}
         description={data.meta.description}
         url="www.sarah-radtke.de/akupunktur"
-        img="/img/og_img_akupunktur.jpg"
+        img="https://www.sarahradtke.de/img/og_img_akupunktur.jpg"
       />
       <Hero
         img="acupuncture"
