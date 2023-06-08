@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "postbuild": "next-sitemap --config next-sitemap.config.js",
     "start": "next start",
     "lint": "next lint"
   },
@@ -14,6 +15,7 @@
     "@types/react-dom": "18.2.4",
     "framer-motion": "^10.12.10",
     "next": "13.4.1",
+    "next-sitemap": "^4.1.3",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-intersection-observer": "^9.4.3",

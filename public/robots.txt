@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.sarahradtke.de
+
+# Sitemaps
+Sitemap: https://www.sarahradtke.de/sitemap.xml
