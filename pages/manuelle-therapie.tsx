@@ -16,6 +16,7 @@ const ManuelleTherapie: NextPage = () => {
         title={data.meta.title}
         description={data.meta.description}
         url="www.sarah-radtke.de/manuelle-therapie"
+        img="/img/og_img_manuelle_therapie.jpg"
       />
       <Hero
         img="manual"

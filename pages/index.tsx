@@ -20,6 +20,7 @@ const Home: NextPage = () => {
         title={data.meta.title}
         description={data.meta.description}
         url="www.sarah-radtke.de"
+        img="/img/og_img_start.jpg"
       />
       <Hero
         img="about"

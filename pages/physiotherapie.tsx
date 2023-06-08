@@ -18,6 +18,7 @@ const Massage: NextPage = () => {
         title={data.meta.title}
         description={data.meta.description}
         url="www.sarah-radtke.de/physiotherapie"
+        img="/img/og_img_physiotherapie.jpg"
       />
       <Hero
         img="massage"

@@ -17,6 +17,7 @@ const UeberMich: NextPage = () => {
         title={data.meta.title}
         description={data.meta.description}
         url="www.sarah-radtke.de/ueber-mich"
+        img="/img/og_img_ueber_mich.jpg"
       />
       <PhotoBox
         title={data.photoTitle}
