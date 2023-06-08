@@ -5,6 +5,7 @@ import { Text } from "./Text.component";
 import data from "../api/footer.json";
 // STYLES
 import styles from "../styles/Footer.module.scss";
+import Link from "next/link";
 
 export const Footer = (): JSX.Element => {
   return (
@@ -36,6 +37,11 @@ export const Footer = (): JSX.Element => {
         <Text margin={false} center>
           {data.contact.partII}
         </Text>
+        <Link className={styles.link} href="/impressum">
+          <Text margin={false} center>
+            Impressum
+          </Text>
+        </Link>
       </div>
     </footer>
   );

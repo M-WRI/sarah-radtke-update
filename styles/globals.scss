@@ -220,6 +220,10 @@ a {
   text-decoration: none;
 }
 
+p {
+  font-family: var(--text-font);
+}
+
 @media (max-width: 970px) {
   :root {
     // SIZES
