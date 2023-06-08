@@ -1,5 +1,6 @@
 // DATA
 import data from "../api/massage.json";
+import cmdData from "../api/cmd.json";
 // COMPONENTS
 import { Hero } from "../components/Hero.component";
 import { InfoBox } from "../components/InfoBox.component";
@@ -27,7 +28,13 @@ const Massage: NextPage = () => {
         center
         underline
       />
-      <InfoBox headline={data.symptomTitle} list={data.symptomList} />
+      <PhotoBox
+        title={cmdData.photoTitle}
+        text={cmdData.photoText}
+        img="cmd2"
+        underline
+      />
+      <InfoBox headline={cmdData.symptomTitle} list={cmdData.symptomList} />
       <Headline type="h1" center>
         {data.headline}
       </Headline>
@@ -42,6 +49,7 @@ const Massage: NextPage = () => {
           height
         />
       ))}
+      <InfoBox headline={data.symptomTitle} list={data.symptomList} />
       <PreFooter site="Physiotherapie" />
       <Footer />
     </div>
