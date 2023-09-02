@@ -8,6 +8,7 @@ import { Footer } from "../components/Footer.component";
 // TYPES
 import type { NextPage } from "next";
 import { MetaData } from "../components/MetaData.component";
+import styles from "../styles/Hero.module.scss";
 
 const ManuelleTherapie: NextPage = () => {
   return (
@@ -18,13 +19,19 @@ const ManuelleTherapie: NextPage = () => {
         url="www.sarah-radtke.de/manuelle-therapie"
         img="https://www.sarahradtke.de/img/og_img_manuelle_therapie.jpg"
       />
-      <Hero
-        img="manual"
-        title={data.heroTitle}
-        text={data.heroText}
-        center
-        underline
-      />
+      <div className={styles.heroPositioning}>
+        <Hero
+          img="manual"
+          title={data.heroTitle}
+          text={data.heroText}
+          center
+          underline
+          customPosition={{
+            isTrue: true,
+            name: "heroTextContainerAlternative",
+          }}
+        />
+      </div>
       <InfoBox headline={data.symptomTitle} list={data.symptomList} />
       <PreFooter site="Manuelle Therapie" />
       <Footer />

@@ -18,6 +18,7 @@ export const Navigation = () => {
               objectFit="contain"
               priority
             />
+            <span className={styles.logoSubline}>Privatpraxis Sarah Radtke</span>
           </Link>
         </div>
         <ul className={styles.navBar}>

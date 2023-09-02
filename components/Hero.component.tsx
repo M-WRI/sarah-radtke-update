@@ -17,9 +17,10 @@ export const Hero = ({
   text,
   title,
   isMain = false,
-  headType = "h2",
+  headType = "h1",
   center = false,
   underline = false,
+  customPosition,
 }: IHeroProps) => {
   const { ref, inView } = useInView();
 
@@ -57,14 +58,37 @@ export const Hero = ({
         variants={animation}
         animate={textBox}
         className={
-          isMain ? styles.heroTextContainerIndex : styles.heroTextContainer
+          isMain
+            ? `${
+                customPosition?.isTrue
+                  ? styles[customPosition.name]
+                  : styles.heroTextContainerIndex
+              }`
+            : `${
+                customPosition?.isTrue
+                  ? styles[customPosition.name]
+                  : styles.heroTextContainer
+              }`
         }
       >
-        {title && (
-          <Headline type={headType} center={center} underline={underline}>
-            {title}
-          </Headline>
-        )}
+        {title ? (
+          Array.isArray(title) ? (
+            title.map((item) => (
+              <Headline
+                key={item}
+                type={headType}
+                center={center}
+                underline={underline}
+              >
+                {item}
+              </Headline>
+            ))
+          ) : (
+            <Headline type={headType} center={center} underline={underline}>
+              {title}
+            </Headline>
+          )
+        ) : null}
         {text && <Text center={center}>{text}</Text>}
       </motion.div>
     </section>

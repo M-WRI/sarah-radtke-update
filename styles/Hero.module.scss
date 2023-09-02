@@ -44,6 +44,30 @@
   padding: 2rem;
 }
 
+.heroTextContainerAlternative {
+  max-width: 40rem;
+  position: absolute;
+  bottom: -30vh;
+  right: 0;
+  background: var(--white);
+  box-shadow: var(--box-shadow);
+  padding: 2rem;
+}
+
+.indexHero {
+  max-width: 40rem;
+  position: absolute;
+  bottom: -20vh;
+  right: 0;
+  background: var(--white);
+  box-shadow: var(--box-shadow);
+  padding: 2rem;
+}
+
+.heroPositioning {
+  margin-bottom: 15rem;
+}
+
 @media (max-width: 450px) {
   .container {
     height: unset;
@@ -71,5 +95,14 @@
 
   .heroTextContainer {
     position: unset;
+  }
+
+  .heroTextContainerAlternative,
+  .indexHero {
+    position: unset;
+  }
+
+  .heroPositioning {
+    margin-bottom: 0rem;
   }
 }
