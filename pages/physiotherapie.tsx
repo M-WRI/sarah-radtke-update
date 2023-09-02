@@ -35,9 +35,7 @@ const Massage: NextPage = () => {
         underline
       />
       <InfoBox headline={cmdData.symptomTitle} list={cmdData.symptomList} />
-      <Headline type="h1" center>
-        {data.headline}
-      </Headline>
+
       {data.photoTextList.map((item, i) => (
         <PhotoBox
           key={item.id}

@@ -6,8 +6,8 @@
   "heroTitle": "Sarah Radtke",
   "heroText": "Mein Name ist Sarah Radtke. Ich wurde 1983 in Köln geboren, bin verheiratet und lebe mit meinen 2 Kindern und meinem Mann seit 2004 in Hamburg. Nach Jahren meines Studiums der Zahnmedizin an der Uniklinik Eppendorf folgten eine Physiotherapieausbildung und weitere Qualifikationen und Fortbildungen in den Bereichen Lymphdrainage, Rückentraining, Kiefergelenkbehandlungen (CMD) und Manuelle Therapie, zudem eine Heilpraktiker- und Akupunkturausbildung (spezialisiert auf Kinderwunsch).",
 
-  "photoTitle": "Sie stehen im Mittelpunkt",
-  "photoText": "Seit über zehn Jahren beschäftige ich mich mit unterschiedlichen Therapieansätzen und Behandlungsmöglichkeiten aus den breitgefächerten Bereichen der Physiotherapie, u.a. klassische Krankengymnastik, Massagetechniken, Lymphdrainage, Rückentraining, Kiefergelenkbehandlungen (CMD) und der Manuellen Therapie. Ich kam irgendwann an einen Punkt, an dem ich mit meinen Behandlungsmöglichkeiten auf der Stelle stand und absolvierte 2015 die staatlich anerkannte Heilpraktikerprüfung. Anschließend folgte die Akupunkturausbildung, um noch mehr über den Tellerrand hinausschauen und weitere Therapiemöglichkeiten abrufen zu können.",
+  "photoTitle": "Sarah Radtke",
+  "photoText": "Seit über zehn Jahren beschäftige ich mich mit unterschiedlichen Therapieansätzen und Behandlungsmöglichkeiten aus den breitgefächerten Bereichen der Physiotherapie, u.a. klassische Krankengymnastik, Massagetechniken, Lymphdrainage, Rückentraining, Kiefergelenkbehandlungen (CMD) und der Manuellen Therapie. Anschließend folgte die Akupunkturausbildung, anschließend folgte die Akupunkturausbildung, um zusätzlich noch mehr Behandlungserfolge zu erzielen.",
 
   "symptomText": "Beim Thema Kinderwunsch hatte ich selbst die Erfahrung gemacht, unterstützend mit Akupunktur natürlich schwanger werden zu können. In meiner eigenen Praxis bringe ich meine physiotherapeutischen Erfahrungen mit ein und habe durch die Anwendung der Fruchtbarkeitsmassage bereits viele Schwangerschaftserfolge erzielt.",
 
@@ -16,7 +16,10 @@
       "id": "1",
       "text": "Zertifikat – Die Fruchtbarkeitsmassage nach Birgit Zart"
     },
-    { "id": "2", "text": "Ausbildung zur Mannualtherapeutin bei der IMTA" },
+    {
+      "id": "2",
+      "text": "Ausbildung zur zertifizierten Manualtherapeutin (IMTA/DVMT)"
+    },
     {
       "id": "3",
       "text": "Curriculum Craniomandibuläre Dysfunktion Deutsche Gesellschaft für Zahn-, Mund und Kieferheilkunde, von Prog. Dr. M. O. Ahlers, Prof. Dr. H. A. Jakstat, M. Sanders (Hamburg)"
@@ -24,7 +27,6 @@
     { "id": "4", "text": "Akupunkturausbildung" },
     { "id": "5", "text": "Staatl. anerkannte Heilpraktikerin" },
     { "id": "6", "text": "Lymphdrainageausbildung" },
-    { "id": "7", "text": "Staatl. anerkannte Physiotherapeutin" },
-    { "id": "8", "text": "7 Semester Zahnmedizin am UKE, Hamburg" }
+    { "id": "7", "text": "Staatl. anerkannte Physiotherapeutin" }
   ]
 }

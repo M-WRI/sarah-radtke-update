@@ -1,5 +1,5 @@
 export interface IHeadlineProps {
-  children: string | JSX.Element | JSX.Element[];
+  children: string | JSX.Element | JSX.Element[] | string[];
   type?: THeadlineType;
   center?: boolean;
   margin?: boolean;

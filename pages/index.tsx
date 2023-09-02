@@ -24,18 +24,34 @@ const Home: NextPage = () => {
       />
       <Hero
         img="about"
+        headType="h2"
         title={data.heroData.title}
         text={data.heroData.text}
         center
         underline
+        customPosition={{ isTrue: true, name: "indexHero" }}
       />
-      <div className="more-spacing">
-        <Headline type="h1" underline center>
+      <div
+        style={{
+          transform: "translateY(100px)",
+          marginBottom: "200px",
+        }}
+      >
+        <HumanBodySection />
+      </div>
+
+      {/* <div
+        style={{
+          transform: "translateY(100px)",
+          marginBottom: "200px",
+        }}
+      >
+        <Headline type="h2" underline center>
           {data.headline}
         </Headline>
-      </div>
+      </div> */}
+
       <ServiceGallery />
-      <HumanBodySection />
       <div
         className="more-spacing"
         style={{ maxWidth: "800px", margin: "auto", padding: "0 1rem" }}

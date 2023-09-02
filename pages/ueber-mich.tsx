@@ -1,7 +1,6 @@
 // COMPONENTS
 import { TimeLine } from "../components/TimeLine";
 import { PhotoBox } from "../components/PhotoBox.component";
-import { InfoBox } from "../components/InfoBox.component";
 import { PreFooter } from "../components/PreFooter.component";
 import { Footer } from "../components/Footer.component";
 // DATA
@@ -25,7 +24,6 @@ const UeberMich: NextPage = () => {
         img="mittelpunkt"
         underline
       />
-      <InfoBox text={data.symptomText} />
       <TimeLine vita={data.vita} />
       <PreFooter />
       <Footer />
