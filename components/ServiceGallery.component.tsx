@@ -81,7 +81,7 @@ export const ServiceGallery = (): JSX.Element => {
                     animate={"contentBox"}
                     className={styles.article}
                   >
-                    <Headline type="h1" center={center()} underline>
+                    <Headline type="h2" center={center()} underline>
                       {article.title}
                     </Headline>
                     <Text center={center()}>{article.text}</Text>
