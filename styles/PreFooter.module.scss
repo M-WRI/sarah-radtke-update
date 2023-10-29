@@ -81,12 +81,6 @@
 
     .listContaienerSm {
       grid-template-columns: repeat(2, 1fr);
-
-      a {
-        &:last-child {
-          grid-column: span 2;
-        }
-      }
     }
   }
 }

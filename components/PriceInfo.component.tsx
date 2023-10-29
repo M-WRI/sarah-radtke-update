@@ -9,7 +9,7 @@ import styles from "../styles/PriceIformation.module.scss";
 export const PriceInfo = (): JSX.Element => {
   return (
     <section className={styles.container}>
-      <Headline type="h1" center>
+      <Headline type="h2" center>
         {data.headline}
       </Headline>
       <div className={styles.wrapper}>

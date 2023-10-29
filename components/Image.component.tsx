@@ -56,7 +56,13 @@ export const ImageComponent = ({ type, alt }: IImageProps): JSX.Element => {
   return (
     <>
       {img && (
-        <Image src={img} alt={alt} layout="fill" objectFit="cover" priority />
+        <Image
+          style={{ objectFit: "cover" }}
+          src={img}
+          alt={alt}
+          fill
+          priority={false}
+        />
       )}
     </>
   );

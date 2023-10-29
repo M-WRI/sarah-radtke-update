@@ -111,7 +111,7 @@ export const PhotoBox = ({
         >
           {innerWidth && (
             <Headline
-              type="h1"
+              type="h2"
               center={innerWidth <= 830 ? true : false}
               underline={underline}
             >

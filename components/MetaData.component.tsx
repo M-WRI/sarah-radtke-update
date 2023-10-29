@@ -13,8 +13,6 @@ export const MetaData = ({
 }) => {
   return (
     <Head>
-      <title>Sarah Radtke</title>
-
       <title>{title}</title>
       <meta name="description" content={description} />
       {/* Open Graph / Facebook */}
@@ -24,7 +22,7 @@ export const MetaData = ({
       <meta property="og:description" content={description} />
       {img && <meta property="og:image" content={img} />}
       {/* Twitter */}
-      {img && <meta property="twitter:card" content={img} />}
+      <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content={url} />
       <meta property="twitter:title" content={title} />
       <meta property="twitter:description" content={description} />

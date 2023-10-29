@@ -15,7 +15,7 @@ export const PreFooter = ({ site }: IPreFooterProps): JSX.Element => {
 
   return (
     <section className={styles.container}>
-      <Headline type="h1" center>
+      <Headline type="h2" center>
         {head.head}
       </Headline>
       <div

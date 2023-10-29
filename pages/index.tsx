@@ -19,7 +19,7 @@ const Home: NextPage = () => {
       <MetaData
         title={data.meta.title}
         description={data.meta.description}
-        url="www.sarah-radtke.de"
+        url="https://www.sarah-radtke.de"
         img="https://www.sarahradtke.de/img/og_img_start.jpg"
       />
       <Hero
@@ -39,24 +39,12 @@ const Home: NextPage = () => {
       >
         <HumanBodySection />
       </div>
-
-      {/* <div
-        style={{
-          transform: "translateY(100px)",
-          marginBottom: "200px",
-        }}
-      >
-        <Headline type="h2" underline center>
-          {data.headline}
-        </Headline>
-      </div> */}
-
       <ServiceGallery />
       <div
         className="more-spacing"
         style={{ maxWidth: "800px", margin: "auto", padding: "0 1rem" }}
       >
-        <Headline type="h1" underline center>
+        <Headline type="h2" underline center>
           {data.infoSection.title}
         </Headline>
         <Text center>{data.infoSection.text}</Text>

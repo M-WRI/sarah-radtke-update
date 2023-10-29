@@ -41,7 +41,7 @@ const Massage: NextPage = () => {
           marginBottom: "200px",
         }}
       >
-        <Headline type="h1" underline center>
+        <Headline type="h2" underline center>
           Massage Techniken
         </Headline>
       </div>

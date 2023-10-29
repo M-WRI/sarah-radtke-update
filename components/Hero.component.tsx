@@ -17,7 +17,7 @@ export const Hero = ({
   text,
   title,
   isMain = false,
-  headType = "h1",
+  headType = "h2",
   center = false,
   underline = false,
   customPosition,
